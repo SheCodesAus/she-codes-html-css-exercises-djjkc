@@ -1,0 +1,119 @@
+html {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+/* * {
+    border: red solid 1px;
+ } */
+
+body {
+    margin: 0px;
+}
+#dog-gallery {
+    display: inline;
+   
+}
+
+.dog-card {
+    width: 26%;
+    padding: 10px;
+    display: inline-block;  
+    border: 3px solid palevioletred;  
+    vertical-align: middle;
+    margin: 0 5px 20px;
+    height: 375px;
+    text-align: left;
+    box-shadow: 0px 0px 50px orange;
+
+}
+.dog-card img {
+    width: 100%;
+    height: 200px;
+
+.dog-card a {
+    font-family: 'Arial', sans-serif;
+    font-size: small;
+    line-height: 3rem;
+    color:grey;
+}
+    
+}
+a img {
+    height: 25px;;
+}
+header {
+    background-color: rgb(137, 73, 73);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    display: inline;
+    line-height: 2.5rem;
+    border: 3px solid red;
+}
+
+h1 {
+    line-height: 2.5rem;;
+    color: rgb(174, 24, 59);
+    text-align: start;
+    }
+
+nav {
+    display: inline;
+    font-size: 8spx;
+    float: right;
+}
+nav a {
+    text-align: end;
+}
+
+div {
+    text-align: left;
+}
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: medium;
+    line-height: 3rem;
+    color:black;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: small;
+    line-height: 3rem;
+    color:black;
+    display: block;
+}
+
+
+a { 
+    font-family: 'Arial', sans-serif;
+    font-size: small;
+    line-height: 3rem;
+    color:black;
+}
+
+#coders {
+    color:rgb(137, 73, 73);
+}
+
+#location {
+    font-family: 'Arial', sans-serif;
+    font-size: small;
+    line-height: 3rem;
+    color:red;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    color: black;
+    font-size: small;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #6b469a;
+    padding: 10px;
+    color: white;
+}
