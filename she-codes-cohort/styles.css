@@ -11,7 +11,7 @@ body {
 }
 #dog-gallery {
     display: inline;
-   
+    align-items: center;
 }
 
 .dog-card {
@@ -30,6 +30,7 @@ body {
     width: 100%;
     height: 200px;
 
+}
 .dog-card a {
     font-family: 'Arial', sans-serif;
     font-size: small;
@@ -37,17 +38,18 @@ body {
     color:grey;
 }
     
-}
+
 a img {
-    height: 25px;;
+    height: 25px;
 }
+
 header {
     background-color: rgb(137, 73, 73);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8px;
     display: inline;
     line-height: 2.5rem;
-    border: 3px solid red;
+
 }
 
 h1 {

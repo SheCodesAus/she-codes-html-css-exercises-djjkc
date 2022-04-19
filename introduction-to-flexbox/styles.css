@@ -13,6 +13,10 @@ body {
     font-size: 1rem;
     font-weight: bold;
     height: calc(100% - 14px);
+    display: flex;
+    justify-content: center;    /* horizontal alignment */
+    flex-wrap: wrap;
+    align-content: center;   /* vertical alignment */
 }
 
 div {
@@ -21,3 +25,28 @@ div {
 }
 
 /*** Your code here ***/
+
+.demo-div {
+    flex-grow: 1; /* grown to fill the available space evenly */
+}
+
+#div-5 {
+    order: -1;
+    background-color: green;
+}
+
+#div-6 {    
+    flex-grow: 2;
+    order: 1;    /* DONT USE unless really required! Doesn't change the order on HTML. if element is not order numbered, it's default setting is 0 (so before 1) */
+}
+
+#div-1 {    
+    flex-basis: 20%;     /* control width manually regardless of how many other elements - use percentages, avoid px for this */
+    order: 2;
+}
+
+#div-2 {    
+    flex-basis: 100px; 
+    order: 3;
+}
+/* order is super helpful at scale for retrieving  */

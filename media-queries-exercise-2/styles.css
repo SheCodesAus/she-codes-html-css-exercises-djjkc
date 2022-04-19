@@ -9,6 +9,7 @@ body {
 
 header {
     color: #fff;
+    padding: 20px;
 }
 
 h2 {
@@ -17,6 +18,10 @@ h2 {
     background-color: #5e7992;
     color: #fff;
     font-size: 1rem;
+    text-align: center;
+    /* border: yellow 3px dotted; */
+    margin: 0%;
+    padding: 25px;
 }
 
 p {
@@ -26,26 +31,41 @@ form {
     background-color: #fff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    /* border: yellow 3px dotted; */
+    padding: 25px;
 }
 
 label {
     font-weight: bold;
     color: #5e7992;
+    display: block;
+    align-items: left;
+    /* border: purple 3px dotted; */
+    padding: 5px;
 }
 
 input {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     border: 1px solid #ebeeef;
     background-color: #f9fafa;
+    /* border: orange 3px dotted; */
+    padding: 10px;
+    width: 100%;
 }
 
 .form-item {
+    /* border: pink 3px dotted; */
+    padding: 5px;
+
 }
 
 button {
     background-color: #00d982;
-    border: none;
+    border: 25px;
     color: #fff;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
 }
 
 input,
@@ -54,3 +74,34 @@ button {
     border-radius: 2px;
 }
 
+ /*** Media Queries Below ***/
+
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .row{
+        width: calc(100% / 2 - 10px);
+        display: inline-block;
+    }   
+}
+
+@media (min-width: 900px) {
+    .row{
+        width: calc(100% / 2 - 10px);
+        display: inline-block;
+    }   
+    main {
+        display: inline-flex;
+        text-align: center;
+    }
+    #form-wrapper {
+        vertical-align: middle;
+    
+    }
+    h1 {
+        margin: 25%;
+        text-align: center;
+    }
+}
