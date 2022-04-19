@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body {
+    background: #FCEDF0;  
+    font-size: 100%;
+}
+
+header {
+    color: #EFD5D2;
+    font-family: 'Parisienne', cursive;
+    background-image: url("./images/Family\ Widescreen.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 30em;
+    text-align: center;
+    margin:0;
+}
+
+header img {
+    width: 100%;
+    background-size: cover;
+}
+
+nav {
+    font-size: 15em;
+    text-decoration-color: #94c7af;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    font-size: 10em;
+    justify-content: space-around;
+}
+
+.portrait{
+    width: 10%;
+    height: 10%;
+    border-radius: 8px;
+}
+
+footer {
+    font-size: 5em;
+    text-align: center;
+    padding: 10px;
+    color: #94c7af;
+}
+
+#links {
+    display:center;
+    padding-top: 10px;
+}
+
+#LinkedIn, #GitHub {
+    padding: 50px;
+}
+
+form {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid #FDDC5C;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #FA4224;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2px solid #FDDC5C;
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.form-item button:hover {
+    border: 2px solid #FA4224;
+    background-color: #FA4224;
+    color: #FFF;
+}
+
+.form-item button {
+    width: 100px;
+}
+
+
+
+
+/* Phone View */
+@media screen and (max-width: 480px) {
+
+    }
+
+
