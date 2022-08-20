@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body {
+    background-color: #e3e7e6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+
+img {
+    /* filter: grayscale(100%); */
+}
+
+h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-decoration: none;
+    font-size: 4rem;
+    margin: 0;
+    color: #E7CFCD;
+}
+
+h2 {
+    font-family: 'Montserrat Subrayada', sans-serif; 
+    color: #cfb7c3;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+#header-text {
+    flex-basis: 80%;
+    display: flex;
+}
+
+nav {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+a {
+    margin: 2px;
+    text-decoration: none;
+    color: #000;
+}
+
+a, p {
+    font-family: monospace;
+}
+
+.add-story-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    font-size: large; 
+}
+
+#adding-story {
+    color: #CAB1BD;   
+}
+
+#create-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 16%;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+#create-date {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 16%;
+    padding-bottom: 1.5vw;
+}
+
+#create-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10%;
+    padding-bottom: 1.5vw;
+}
+
+#create-image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5%;
+    padding-bottom: 1.5vw;
+}
+
+#create-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5vw;
+}
+
+#submit {
+    font-weight: bold;
+    color: #CAB1BD;
+    font-family: 'Pacifico', cursive;
+}
+
+.account-view {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    font-size: large;
+    color: #CAB1BD; 
+}
+
+#nav-bar {
+    color: #cfb7c3;
+    font-weight: bold;
+}
+
+#nav-bar1 {
+    color: #cfb7c3;
+    /* font-weight: bold; */
+    font-family: 'Pacifico', cursive;
+}
+
+#author-list {
+    color: #cfb7c3;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    padding-top: 5%;
+    font-size: 4rem;
+}
+
+.authors-articles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    font-size: large; 
+}
+
+#create-user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5%;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+#create-email {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 8%;
+    padding-bottom: 1.5vw;
+}
+
+#create-password {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5.5%;
+    padding-bottom: 1.5vw;
+}
+
+#create-confirm {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 1%;
+    padding-bottom: 1.5vw;
+}
+
+#create-confirmtext {
+    padding-bottom: 3vw;
+    font-size:smaller;
+}
+
+#create-list {
+    font-size: medium; 
+}
+
+.add-user-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    font-size: large; 
+}
+
+#adding-user, #log-user {
+    color: #CAB1BD;   
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    font-size: large; 
+}
+
+#login-user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5%;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+#login-password {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5.5%;
+    padding-bottom: 1.5vw;
+}
